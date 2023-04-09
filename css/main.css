@@ -74,39 +74,47 @@
 }
 
 .navbardemo {
-    margin-top: 10px;
+  
     z-index: 10000000000000000;
+    justify-content: center;
+    
 
 }
 
 .containertop {
-    display: flexbox;
-    flex-direction: row;
-    margin-left: 40px;
-    flex-direction: row;
 
+   display: flex;
     justify-content: center;
 }
 
-.bdr {
-    display: inline;
-    border-right: 2px solid rgb(83, 81, 81);
-    padding: 20px;
-}
+
 
 .counselling {
-    font-size: 20px;
-    padding: 20px;
-    display: inline;
+     
+    display:inline-block;
+    flex-direction: row;
+    font-size: 18px;
+    width: 200px;
+  
+   padding-left: 20px;
+   font-weight: bold;
+    
+    
+   
 }
 
 .counselling span {
-    display: inline;
-    font-size: 30px;
+   
+    font-size: 45px;
     color: red;
     font-weight: bold;
 }
 
+.line{
+    border-left: 2px solid black;
+    height: 70px;
+    margin-top: 20px;
+}
 
 
 @media screen and (max-width: 630px) {
@@ -153,8 +161,36 @@
 
     .smallimg {
         margin-left: 15%;
-        height: 70px;
-        width: 70px;
+        height: 45px;
+        width: 45px;
+    }
+
+    .containertop {
+
+        display: flexbox;
+        flex-wrap: wrap;
+        justify-content: center;
+     }
+
+    .counselling{
+        font-size: 12px;
+        width: 150px;
+    }
+    .counselling span{
+        font-size: 15px;
+    }
+    .line{
+        margin-top: 8px;
+        height: 30px;
+        margin-left: 20px;
+     
+    }
+    .fs-4{
+        font-size: 18px !important;
+    }
+
+    .container55 {
+        padding-top: 95px;
     }
 }
 
